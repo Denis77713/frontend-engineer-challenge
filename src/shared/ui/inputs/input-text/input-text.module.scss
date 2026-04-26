@@ -1,0 +1,44 @@
+@import "@shared/styles/variables.scss";
+@import "@shared/styles/mixins.scss";
+
+.inputWrapper {
+  position: relative;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: $text-label;
+  @include label_15;
+}
+.errorMessage {
+  margin-top: 8px;
+  color: $text-error;
+  @include error_12;
+}
+.input {
+  border: none;
+  width: 100%;
+  outline: none;
+  color: $input-text;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  @include placeholder_15;
+
+  &:focus {
+    outline: none;
+  }
+  &:placeholder {
+    @include placeholder_15;
+    color: $text-description;
+  }
+}
+.border_default {
+  border-bottom: 1px solid $border-default;
+}
+.border_error {
+  border-bottom: 1px solid $border-error;
+}
+.border_confirm {
+  border-bottom: 1px solid $border-confirm;
+}

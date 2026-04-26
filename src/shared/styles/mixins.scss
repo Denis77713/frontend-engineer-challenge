@@ -1,0 +1,42 @@
+@use "./variables" as vars;
+
+@mixin title_32 {
+  font-family: vars.$font-family-base;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+@mixin placeholder_15 {
+  font-family: vars.$font-family-base;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@mixin text_14 {
+  font-family: vars.$font-family-base;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+@mixin error_12 {
+  font-family: vars.$font-family-base;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+@mixin description_12 {
+  font-family: vars.$font-family-base;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+}
+@mixin label_15 {
+  font-family: vars.$font-family-base;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+}

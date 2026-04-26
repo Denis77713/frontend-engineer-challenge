@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+blockquote,
+figure,
+pre,
+fieldset,
+legend,
+button,
+textarea,
+input,
+select {
+  margin: 0;
+  padding: 0;
+}
