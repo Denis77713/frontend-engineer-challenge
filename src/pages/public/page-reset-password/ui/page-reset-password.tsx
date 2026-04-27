@@ -4,4 +4,4 @@ export const PageResetPassword = () => {
       <h1>Page Reset Password</h1>
     </>
   )
-};
+}

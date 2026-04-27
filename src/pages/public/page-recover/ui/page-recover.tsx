@@ -4,4 +4,4 @@ export const PageRecover = () => {
       <h1>Page Recover</h1>
     </>
   )
-};
+}

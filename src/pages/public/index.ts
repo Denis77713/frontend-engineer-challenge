@@ -1,5 +1,5 @@
-export { PageLogin } from "./page-login";
-export { PageRegistration } from "./page-registration";
-export { PageError } from "./page-error";
-export { PageResetPassword } from "./page-reset-password";
-export { PageRecover } from "./page-recover";
+export { PageError } from "./page-error"
+export { PageLogin } from "./page-login"
+export { PageRecover } from "./page-recover"
+export { PageRegistration } from "./page-registration"
+export { PageResetPassword } from "./page-reset-password"

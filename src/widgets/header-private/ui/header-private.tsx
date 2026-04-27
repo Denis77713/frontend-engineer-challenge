@@ -4,4 +4,4 @@ export const HeaderPrivate = () => {
       <h1>Header Private</h1>
     </>
   )
-};
+}

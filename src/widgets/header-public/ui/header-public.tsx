@@ -4,4 +4,4 @@ export const HeaderPublic = () => {
       <h1>Header Public</h1>
     </>
   )
-};
+}

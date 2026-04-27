@@ -1,17 +1,17 @@
-import { useEffect } from "react";
-import { Outlet, useNavigate } from "react-router";
+import { useEffect } from "react"
+import { Outlet, useNavigate } from "react-router"
 
-import { ROUTES } from "../config/constants";
+import { ROUTES } from "../config/constants"
 
 export const PrivateOutlet = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token")
     if (!token) {
-      navigate(ROUTES.LOGIN);
+      navigate(ROUTES.LOGIN)
     }
-  }, [navigate]);
+  }, [navigate])
 
-  return <Outlet />;
-};
+  return <Outlet />
+}

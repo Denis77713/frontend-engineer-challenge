@@ -1,6 +1,5 @@
-
-import { HeaderPrivate } from "@widgets/header-private";
-import { Outlet } from "react-router";
+import { HeaderPrivate } from "@widgets/header-private"
+import { Outlet } from "react-router"
 
 export const PrivateLayout = () => {
   return (
@@ -10,5 +9,5 @@ export const PrivateLayout = () => {
         <Outlet />
       </main>
     </div>
-  );
-};
+  )
+}

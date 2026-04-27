@@ -1,6 +1,5 @@
-
-import { HeaderPublic } from "@widgets/header-public";
-import { Outlet } from "react-router";
+import { HeaderPublic } from "@widgets/header-public"
+import { Outlet } from "react-router"
 
 export const PublicLayout = () => {
   return (
@@ -10,5 +9,5 @@ export const PublicLayout = () => {
         <Outlet />
       </main>
     </div>
-  );
-};
+  )
+}
