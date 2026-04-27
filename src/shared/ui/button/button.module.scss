@@ -1,0 +1,10 @@
+.button {
+  background: $button-bg;
+  color: $button-color;
+  @include text_14;
+  border: none;
+  height: 48px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}

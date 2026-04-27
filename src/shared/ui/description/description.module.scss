@@ -1,0 +1,13 @@
+@import "@shared/styles/variables.scss";
+@import "@shared/styles/mixins.scss";
+
+.description {
+  @include description_12;
+  color: $text-description;
+}
+
+.description a {
+  @include description_12;
+  color: $text-description;
+  text-decoration: underline;
+}
