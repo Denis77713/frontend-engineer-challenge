@@ -1,7 +1,13 @@
+import {
+  PageError,
+  PageLogin,
+  PageRecover,
+  PageRegistration,
+  PageResetPassword,
+} from "@pages/public"
 
-import { PageError, PageLogin, PageRecover, PageRegistration, PageResetPassword } from "@pages/public";
-import { ROUTES } from "../config/constants";
-import { PublicLayout } from "../config/public-layout";
+import { ROUTES } from "../config/constants"
+import { PublicLayout } from "../config/public-layout"
 
 export const publicRoutes = [
   {
@@ -15,10 +21,12 @@ export const publicRoutes = [
       {
         path: ROUTES.REGISTER,
         element: <PageRegistration />,
-      }, {
+      },
+      {
         path: ROUTES.RESET_PASSWORD,
         element: <PageResetPassword />,
-      }, {
+      },
+      {
         path: ROUTES.RECOVER,
         element: <PageRecover />,
       },
@@ -26,7 +34,6 @@ export const publicRoutes = [
         path: "*",
         element: <PageError />,
       },
-    ]
-  }
-
-];
+    ],
+  },
+]

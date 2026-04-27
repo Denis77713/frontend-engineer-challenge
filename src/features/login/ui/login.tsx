@@ -1,21 +1,26 @@
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { loginSchema, type LoginFormValues } from "../libs/validation";
-import { Button, InputPassword, Url } from "@shared/ui";
+import { zodResolver } from "@hookform/resolvers/zod"
+import { Button, InputPassword, Url } from "@shared/ui"
+import { useForm } from "react-hook-form"
+
+import { type LoginFormValues, loginSchema } from "../libs/validation"
 
 export const Login = () => {
-  const { register, handleSubmit, formState: { errors, isSubmitted, isValid } } = useForm<LoginFormValues>({
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitted, isValid },
+  } = useForm<LoginFormValues>({
     resolver: zodResolver(loginSchema),
     mode: "onSubmit",
     defaultValues: {
       email: "",
-    }
-  });
+    },
+  })
 
   const onSubmit = (data: LoginFormValues) => {
-    console.log("Форма отправлена:", data);
-  };
-  console.log(isValid);
+    console.log("Форма отправлена:", data)
+  }
+  console.log(isValid)
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -30,5 +35,5 @@ export const Login = () => {
       <Url text="Забыли пароль?" href="#" />
       <Button text="Отправить" type="submit" />
     </form>
-  );
-};
+  )
+}

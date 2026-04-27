@@ -1,5 +1,5 @@
-export { Description } from "./description/description";
-export { Title } from "./title/title";
-export { InputText, InputPassword } from "./inputs";
-export { Button } from "./button/button";
-export { Url } from "./url/url";
+export { Button } from "./button/button"
+export { Description } from "./description/description"
+export { InputPassword, InputText } from "./inputs"
+export { Title } from "./title/title"
+export { Url } from "./url/url"

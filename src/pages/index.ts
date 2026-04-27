@@ -1,8 +1,8 @@
-export { PageDashboard } from "./private";
+export { PageDashboard } from "./private"
 export {
-  PageLogin,
-  PageRegistration,
   PageError,
+  PageLogin,
   PageRecover,
+  PageRegistration,
   PageResetPassword,
-} from "./public";
+} from "./public"

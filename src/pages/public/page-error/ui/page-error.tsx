@@ -4,4 +4,4 @@ export const PageError = () => {
       <h1>Page Error</h1>
     </>
   )
-};
+}

@@ -1,8 +1,8 @@
-import { Navigate } from "react-router";
+import { PageDashboard } from "@pages/private"
+import { Navigate } from "react-router"
 
-import { ROUTES } from "../config/constants";
-import { PrivateLayout } from "../config/private-layout";
-import { PageDashboard } from "@pages/private";
+import { ROUTES } from "../config/constants"
+import { PrivateLayout } from "../config/private-layout"
 
 export const privateRoutes = [
   {
@@ -19,4 +19,4 @@ export const privateRoutes = [
       },
     ],
   },
-];
+]

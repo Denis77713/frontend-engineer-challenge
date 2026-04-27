@@ -4,4 +4,4 @@ export const PageDashboard = () => {
       <h1>Dashboard</h1>
     </>
   )
-};
+}

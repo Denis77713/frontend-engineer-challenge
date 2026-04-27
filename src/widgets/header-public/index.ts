@@ -1,1 +1,1 @@
-export { HeaderPublic } from "./ui/header-public";
+export { HeaderPublic } from "./ui/header-public"

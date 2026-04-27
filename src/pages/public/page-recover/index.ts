@@ -1,1 +1,1 @@
-export { PageRecover } from "./ui/page-recover";
+export { PageRecover } from "./ui/page-recover"

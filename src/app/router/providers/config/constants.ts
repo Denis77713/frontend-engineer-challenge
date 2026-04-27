@@ -4,4 +4,4 @@ export const ROUTES = {
   RECOVER: "/recover",
   RESET_PASSWORD: "/reset-password",
   DASHBOARD: "/dashboard",
-};
+}
